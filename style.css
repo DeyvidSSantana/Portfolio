@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     color: #ffffff;
+    background-image: url(./wp7453603-portfolio-wallpapers.jpg);
     font-family: 'Caveat', cursive;;
 }
 
@@ -12,7 +13,7 @@ body {
 .header-wreapper {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, red, rgb(28, 13, 51), purple,#2E1C2B);
+    background: linear-gradient(-45deg, rgb(82, 68, 141), rgb(28, 13, 51), rgb(46, 69, 88),#2E1C2B);
     background-size: 400%, 400%;
     display: flex;
     flex-direction: column;
@@ -234,7 +235,9 @@ a:hover {
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: rgb(109, 109, 109);
+    color: black;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .card-text a{
