@@ -190,7 +190,7 @@ a:hover {
 }
 
 #toggle:checked ~ .menu-itens {
-    visibility: visible;
+    visibility: inherit;
     opacity: 1;
 }
 

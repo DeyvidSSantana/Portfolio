@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Deyvid Santana</title>
+
+    <script>
+        function fecharMenu() {
+            document.getElementById("toggle").checked =false;
+        }
+    </script>
 </head>
 <body>
     <header class="header-wreapper">
@@ -22,16 +28,16 @@
                     <nav class="menu-itens">
                         <ul>
                             <li>
-                                <a href="#Home">Home</a>
+                                <a href="#Home" onclick="return fecharMenu()">Home</a>
                             </li>
                             <li>
-                                <a href="#Sobre">Sobre</a>
+                                <a href="#Sobre" onclick="return fecharMenu()">Sobre</a>
                             </li>
                             <li>
-                                <a href="#Projetos">Projetos</a>
+                                <a href="#Projetos" onclick="return fecharMenu()">Projetos</a>
                             </li>
                             <li>
-                                <a href="#Linkedin">Linkedin</a>
+                                <a href="#Linkedin" onclick="return fecharMenu()">Linkedin</a>
                             </li>
                         </ul>
                     </nav>
